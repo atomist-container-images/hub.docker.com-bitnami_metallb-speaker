@@ -1,12 +1,24 @@
-# Tags: latest, 0.12.1-debian-10-r69, 0.12.1, 0-debian-10, 0
+# Tags: latest, 0.12.1-debian-10-r73, 0.12.1, 0-debian-10, 0
 FROM bitnami/metallb-speaker:latest
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r69
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r73
 FROM bitnami/metallb-speaker:0.12.1
 FROM bitnami/metallb-speaker:0-debian-10
 FROM bitnami/metallb-speaker:0
 
 # Tags: _
 FROM bitnami/metallb-speaker:_
+
+# Tags: 0.12.1-debian-10-r72
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r72
+
+# Tags: 0.12.1-debian-10-r71
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r71
+
+# Tags: 0.12.1-debian-10-r70
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r70
+
+# Tags: 0.12.1-debian-10-r69
+FROM bitnami/metallb-speaker:0.12.1-debian-10-r69
 
 # Tags: 0.12.1-debian-10-r68
 FROM bitnami/metallb-speaker:0.12.1-debian-10-r68
@@ -82,18 +94,3 @@ FROM bitnami/metallb-speaker:0.12.1-debian-10-r45
 
 # Tags: 0.12.1-debian-10-r44
 FROM bitnami/metallb-speaker:0.12.1-debian-10-r44
-
-# Tags: 0.12.1-debian-10-r43
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r43
-
-# Tags: 0.12.1-debian-10-r42
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r42
-
-# Tags: 0.12.1-debian-10-r41
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r41
-
-# Tags: 0.12.1-debian-10-r40
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r40
-
-# Tags: 0.12.1-debian-10-r39
-FROM bitnami/metallb-speaker:0.12.1-debian-10-r39
